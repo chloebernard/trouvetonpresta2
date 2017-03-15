@@ -1,5 +1,39 @@
+Nav ul{
+	padding: 0px;
+	margin:0px;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin:0px;
+	padding: 0px;
+	text-align: center;
+	border : 3px;
+
+}
+
+nav li a {
+	font-size: 20px;
+	color:grey;
+	text-decoration: none; /
+
+}
+nav li a:hover {
+	text-decoration: none;
+	color:black;
+}
+
+
 body {
 	background-image: url(/images/bureau.jpg);
+}
+
+h1 {
+	font-weight: 700;
+	color:#FF5A5F;
 }
 
 .darkBg {
