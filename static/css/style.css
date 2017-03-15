@@ -1,3 +1,7 @@
+body {
+	background-image: url(/images/bureau.jpg);
+}
+
 .darkBg {
 
 	background-color : #999999;
