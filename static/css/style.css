@@ -1,8 +1,38 @@
+
+#titre_principal {
+	width: 10em;
+	padding-right: 10px;
+	padding-top: 10px;
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+
+}
+
+#logo {
+	
+	margin-left : 15px;
+	width : 150%;
+	vertical-align: middle;
+	float:left;
+}
+
+nav {
+	right:55px;
+	vertical-align: top;
+	text-align: right;
+	margin-top: -40px;
+	margin-right: 10px;
+}
+
+
 Nav ul{
 	padding: 0px;
 	margin:0px;
 	list-style-type: none;
+	text-align: right;
 }
+
 
 nav li {
 	display: inline-block;
@@ -18,7 +48,10 @@ nav li {
 nav li a {
 	font-size: 20px;
 	color:grey;
-	text-decoration: none; /
+	text-decoration: none;
+	vertical-align: top;
+	text-align: right;
+
 
 }
 nav li a:hover {
@@ -36,7 +69,4 @@ h1 {
 	color:#FF5A5F;
 }
 
-.darkBg {
 
-	background-color : #999999;
-}
