@@ -1,5 +1,50 @@
 
-#titre_principal {
+ /*@media screen and (min-width: 900px) { 
+                        /* Nous définirons ici le style de notre menu pour les grands écrans (>900px) */ 
+                    }
+ /*@media screen and (max-width: 900px) { 
+                        /* Ici, nous redéfinirons le css pour les plus petits écrans (<900px) */
+                     /*header{
+                        background-color:white;
+                        text-align:center;
+                        font-size:24px;
+                        width:100%;
+                        position:absolute;
+                        top:0;
+                        left:0;
+                        height:40px;
+                        padding:10px 0px 10px 0px;
+                        }
+                        
+                        header ul{
+                            margin:10px auto;
+                            padding:0px;
+                            display:block;
+                            list-style-type:none;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: visibility 0s, opacity 1s linear;
+                        }
+                        
+                        header ul li{
+                            background-color:grey;
+                            border-bottom:solid 2px #555;
+                        }
+                        
+                        header ul li:hover{
+                            background-color:saddlebrown;
+                            color:white;
+                            cursor:pointer;
+                        }
+                        
+                        header:hover ul{
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+                }*/
+
+/*#titre_principal {
 	width: 10em;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -63,10 +108,18 @@ nav li a:hover {
 body {
 	background-image: url(/images/bureau.jpg);
 }
+*/
 
 h1 {
-	font-weight: 700;
 	color:#FF5A5F;
+	text-align: center;
+	font-size: 300px;
 }
 
+h2 {
+	font-weight: 300;
+	color:#484848;
+	font-size:30px;
+	text-align: center;
 
+}
