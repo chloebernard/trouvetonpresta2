@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>TrouveTonPresta.com - le site pour les pros !</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -14,9 +14,9 @@
     
   </head>
   <header>
-    <!-- LOGO
+    <!--LOGO-->
     <div id="titre_principal">
-      <a href="#"><img id="logo" src="./images/logo.png" alt="logo"/></a>
+      <a href="img id="logo" src="./images/logo.png"></a>
     </div>-->
 
       <!--MENU-->
