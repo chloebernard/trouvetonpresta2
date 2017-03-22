@@ -1,8 +1,8 @@
 
- /*@media screen and (min-width: 900px) { 
-                        /* Nous définirons ici le style de notre menu pour les grands écrans (>900px) */ 
+ /*@media screen and (min-width: 900px) {
+                        /* Nous définirons ici le style de notre menu pour les grands écrans (>900px) */
                     }
- /*@media screen and (max-width: 900px) { 
+ /*@media screen and (max-width: 900px) {
                         /* Ici, nous redéfinirons le css pour les plus petits écrans (<900px) */
                      /*header{
                         background-color:white;
@@ -15,7 +15,7 @@
                         height:40px;
                         padding:10px 0px 10px 0px;
                         }
-                        
+
                         header ul{
                             margin:10px auto;
                             padding:0px;
@@ -25,18 +25,18 @@
                             opacity: 0;
                             transition: visibility 0s, opacity 1s linear;
                         }
-                        
+
                         header ul li{
                             background-color:grey;
                             border-bottom:solid 2px #555;
                         }
-                        
+
                         header ul li:hover{
                             background-color:saddlebrown;
                             color:white;
                             cursor:pointer;
                         }
-                        
+
                         header:hover ul{
                             visibility: visible;
                             opacity: 1;
@@ -55,7 +55,7 @@
 }
 
 #logo {
-	
+
 	margin-left : 15px;
 	width : 150%;
 	vertical-align: middle;
@@ -122,4 +122,39 @@ h2 {
 	font-size:30px;
 	text-align: center;
 
+}
+
+/* Code CSS page Imprimerie du ciel bleu*/
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
 }
