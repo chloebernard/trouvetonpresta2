@@ -7,7 +7,11 @@ app.use(bodyParser.urlencoded())
 app.use(express.static("static"));
 
 
-app.get("/hello",function(req,res){
+app.post("/mail.php",function(req,res){
+
+	
+
+
 	res.send("Hello World");
 });
 
